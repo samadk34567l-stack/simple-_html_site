@@ -1,0 +1,91 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <form>
+        <h1>Student Registration Form</h1>
+
+        <label for="roll_no">Roll No:</label>
+        <input type="number" id="roll_no" name="roll_no" required><br><br>
+
+        <label for="first-name" style="display: inline-block; width: 100px;">Student Name:</label>
+        <input type="text" id="first-name" name="first_name" placeholder="First Name" required>
+        <input type="text" id="last-name" name="last_name" placeholder="Last Name" required>
+        <br><br>
+
+        <label for="father_name">Father Name:</label>
+        <input type="text" id="father_name" name="father_name" required><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="mobile">Mobile No:</label>
+        <input type="tel" id="mobile" name="mobile" placeholder="+92-" required><br><br>
+
+        <label for="email">Email ID:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required title="Password must be at least 6 characters"><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female" required>
+        <label for="female">Female</label><br><br>
+<label for="departement">Departement:</label>
+<select name="departement" id="departement">required</select>
+
+  <input type="checkbox"> CSE
+  <input type="checkbox"> IT
+  <input type="checkbox"> ECE
+  <input type="checkbox"> civil
+  <input type="checkbox"> Mech
+
+  
+<br><br>
+        <label for="course">Current Course:</label>
+        <select id="course" name="course" required>
+            <option value="">--Select Your Current Course--</option>
+            <option value="math">Mathematics</option>
+            <option value="physics">Physics</option>
+            <option value="chemistry">Chemistry</option>
+            <option value="biology">Biology</option>
+            <option value="english">English</option>
+            <option value="computer">Computer Science</option>
+            <option value="history">History</option>
+        </select>
+        <br><br>
+
+        <label for="photo">Student Photo:</label>
+        <input type="file" id="photo" name="photo" accept="image/*" required>
+        <br><br>
+
+        <label for="city">City:</label>
+        <select id="city" name="city" required>
+            <option value="">--Select Your City--</option>
+            <option value="karachi">Karachi</option>
+            <option value="lahore">Lahore</option>
+            <option value="islamabad">Islamabad</option>
+            <option value="peshawar">Peshawar</option>
+            <option value="quetta">Quetta</option>
+            <option value="multan">Multan</option>
+            <option value="faisalabad">Faisalabad</option>
+            <option value="hyderabad">Hyderabad</option>
+            <option value="sialkot">Sialkot</option>
+            <option value="rawalpindi">Rawalpindi</option>
+        </select>
+        <br><br>
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="4" cols="50" placeholder="Enter your full address here..." required></textarea>
+        <br><br>
+
+        <input type="submit" value="Register">
+    </form>
+</body>
+</
